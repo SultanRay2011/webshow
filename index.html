@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WebVibes.com - Your Daily Dose of Digital Laughs!</title>
+  <!-- Bootstrap CDN for quick styling -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+    }
+    /* Navigation */
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    /* Hero Section */
+    header {
+      background: url('your-hero-image.jpg') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      color: #fff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    header > * {
+      position: relative;
+      z-index: 1;
+    }
+    header h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    }
+    header p {
+      font-size: 1.5rem;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    }
+    .btn-custom {
+      background-color: #ff4081;
+      border: none;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+    .btn-custom:hover {
+      background-color: #e91e63;
+    }
+    /* Sections */
+    .section {
+      padding: 60px 0;
+    }
+    .section-title {
+      margin-bottom: 40px;
+      font-size: 2.5rem;
+    }
+    /* Footer */
+    .footer {
+      background: #343a40;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">WebVibes.com</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#sketches">Sketches</a></li>
+        <li class="nav-item"><a class="nav-link" href="#fan-frenzy">Fan Frenzy</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pranks">Pranks</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home">
+    <h1>Welcome to WebVibes.com</h1>
+    <p>Your Daily Dose of Digital Laughs & Wild Vibes!</p>
+    <a href="#sketches" class="btn btn-custom">Get Started</a>
+  </header>
+
+  <!-- Sketches Section -->
+  <section id="sketches" class="section">
+    <div class="container">
+      <h2 class="section-title text-center">Sketch & Shtick Central</h2>
+      <div class="row">
+        <!-- Sketch Card 1 -->
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="sketch1.jpg" class="card-img-top" alt="Sketch 1">
+            <div class="card-body">
+              <h5 class="card-title">Outrageous Sketch 1</h5>
+              <p class="card-text">Laugh out loud with our first outrageous sketch!</p>
+              <a href="#" class="btn btn-custom">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Sketch Card 2 -->
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="sketch2.jpg" class="card-img-top" alt="Sketch 2">
+            <div class="card-body">
+              <h5 class="card-title">Hilarious Sketch 2</h5>
+              <p class="card-text">Another episode of non-stop laughs awaits.</p>
+              <a href="#" class="btn btn-custom">Watch Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fan Frenzy Section -->
+  <section id="fan-frenzy" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title text-center">Fan Frenzy</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Submit Your Funny Moments</h4>
+          <p>Have a hilarious video or meme? Share it with us and get featured!</p>
+          <a href="#" class="btn btn-custom">Submit Now</a>
+        </div>
+        <div class="col-md-6">
+          <h4>Live Chat Highlights</h4>
+          <p>Check out our live chat during the show and see what everyone's laughing at.</p>
+          <a href="#" class="btn btn-custom">Join Chat</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Digital Dares & Pranks Section -->
+  <section id="pranks" class="section">
+    <div class="container">
+      <h2 class="section-title text-center">Digital Dares & Pranks</h2>
+      <div class="row">
+        <!-- Prank Card 1 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="prank1.jpg" class="card-img-top" alt="Prank 1">
+            <div class="card-body">
+              <h5 class="card-title">Prank Challenge 1</h5>
+              <p class="card-text">Watch our hilarious prank challenge unfold.</p>
+              <a href="#" class="btn btn-custom">Watch Prank</a>
+            </div>
+          </div>
+        </div>
+        <!-- Prank Card 2 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="prank2.jpg" class="card-img-top" alt="Prank 2">
+            <div class="card-body">
+              <h5 class="card-title">Prank Challenge 2</h5>
+              <p class="card-text">More laughs with our daring digital dares.</p>
+              <a href="#" class="btn btn-custom">Watch Prank</a>
+            </div>
+          </div>
+        </div>
+        <!-- Prank Card 3 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="prank3.jpg" class="card-img-top" alt="Prank 3">
+            <div class="card-body">
+              <h5 class="card-title">Prank Challenge 3</h5>
+              <p class="card-text">Don't miss this epic prank moment!</p>
+              <a href="#" class="btn btn-custom">Watch Prank</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title text-center">Get in Touch</h2>
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom btn-block">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 WebVibes.com. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+  </html>
+        
